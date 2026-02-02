@@ -1,0 +1,62 @@
+@keyframes backgroundCycle {
+    0% {background-color: white;}
+    50% {background-color: lightsteelblue;}
+    100% {background-color: steelblue;}
+}
+
+
+#content {
+    animation: backgroundCycle 24s linear infinite alternate;
+}
+
+.bordered {
+    border: 2px solid black;
+    text-align:center;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 50ch;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.name {
+    font-size: 5rem;
+    max-width: 16ch;
+}
+
+.detailed {
+    max-width: 85ch;
+}
+
+.fonterra {
+    background: linear-gradient(darkseagreen 2%, #9ad2ec 12%, white 30%, white 100%);
+}
+
+.firecrest {
+    background: linear-gradient(crimson 0%, sandybrown 5%, white 30%, white 100%);
+}
+
+.carbonscape {
+    background: linear-gradient(#2e5337 0%, #9eec9a 10%, white 30%, white 100%);
+}
+
+.key-table {
+    table-layout: fixed;
+    margin: auto;
+    width: 100%;
+}
+
+.skill-list {
+    text-align: left;
+    margin-left: 40px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: lower-greek;
+}
+
+td {
+    padding: 5px;
+}

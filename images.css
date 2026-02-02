@@ -6,7 +6,7 @@
 
 
 #content {
-    animation: backgroundCycle 2s linear infinite alternate;
+    animation: backgroundCycle 24s linear infinite alternate;
 }
 
 .carousel {

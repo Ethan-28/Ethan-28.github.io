@@ -26,3 +26,9 @@ function loadPage(page) {
         })
         .catch(console.error);
 }
+
+const titleElement = document.getElementById('website_title');
+let today = new Date();
+
+const site_names = ["It's a WIP", "Just Ethan's Site", "Ethan's Site", "Drink plenty of water", "Brush regularly", "End of the Work Week!", "Go touch some grass"];
+titleElement.innerText = site_names.at(today.getDay());
